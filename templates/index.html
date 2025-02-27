@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Support Agent Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Support Agent Chatbot</h1>
+    <form method="POST">
+        <label for="query">Enter your question:</label><br>
+        <input type="text" id="query" name="query"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if answer %}
+        <h2>Question:</h2>
+        <p>{{ question }}</p>
+        <h2>Answer:</h2>
+        <p>{{ answer }}</p>
+        <h2>Source Documents:</h2>
+        <ul>
+            {% for doc in source_documents %}
+                <li>{{ doc.metadata.source }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
