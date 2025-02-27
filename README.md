@@ -51,14 +51,8 @@ This project is a support agent chatbot designed to answer "how-to" questions re
 3.  The chatbot will display the answer based on the information extracted from the official documentation.
 
 ## Project Structure
-CDP-ChatBot/
-├── app.py # Flask application
-├── templates/
-│ └── index.html # HTML template for the web interface
-├── static/
-│ └── style.css # CSS stylesheet for styling the web interface
-├── requirements.txt # List of Python packages
-└── README.md # Project documentation
+![image](https://github.com/user-attachments/assets/a257c42c-e01b-444c-a9d9-035ca533183e)
+
 
 
 ## Evaluation Criteria
