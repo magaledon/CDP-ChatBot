@@ -35,7 +35,7 @@ This project is a support agent chatbot designed to answer "how-to" questions re
 ## Setup and Usage
 
 1.  **Clone the repository:**
-       git clone https://github.com/vivek98/CDP-ChatBot.git
+       git clone https://github.com/magaledon/CDP-ChatBot.git
 2.  **Navigate to the project directory:**
    cd CDP-ChatBot
 3.  **Install the required packages:**
