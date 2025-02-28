@@ -54,17 +54,6 @@ This project is a support agent chatbot designed to answer "how-to" questions re
 ![image](https://github.com/user-attachments/assets/a257c42c-e01b-444c-a9d9-035ca533183e)
 
 
-
-## Evaluation Criteria
-
-The assignment was evaluated based on the following criteria:
-
--   Accuracy and completeness of the chatbot's responses.
--   Code quality and build.
--   Handling of variations in question phrasing and terminology.
--   Implementation of bonus features (cross-CDP comparisons, advanced questions).
--   Overall user experience and chatbot interaction.
-
 ## Additional Notes
 
 -   This project demonstrates the use of web scraping, document indexing, and natural language processing techniques to build a support agent chatbot.
